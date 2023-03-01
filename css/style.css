@@ -1,0 +1,283 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    list-style: none;
+}
+
+.section01{
+
+    background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url(../img/banner.jpg);
+    box-shadow: 0 0.25em 0.5em 0 rgb(0 0 0 / 25%);
+    background-attachment:fixed;
+    width: 100%;
+    height: 720px;
+    color: white;
+    background-size: cover;
+    
+}
+.section01 nav{
+    background-color: transparent;
+    margin: 0px 4px 10px 4px;
+    display: block;
+}
+.section01 h1{
+    padding: 0px;
+    padding-left: 10px;
+    size: 30px;
+    padding-top: 10px;
+}
+.section01 nav ul li{
+    background-color: #e44c65;
+    border-radius: 3px;
+    float: right;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0px 10px 3px 10px;
+    margin-top: -15px;
+    list-style: none;
+    display: inline;
+    
+    
+}
+.section01 a{
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+.section01 section img{
+    float: right;
+    margin-left: 30px;
+    border-radius: 50%;
+}
+.section01 section{
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    color: white;
+}
+.section01 section h1{
+    padding-top: 12%;
+    padding-bottom: 4%;
+}
+
+
+.section02{
+    display: block;
+    padding-top: 20%;
+    background-image: url(../img/pic02.jpg);
+    overflow: hidden;
+    background-attachment: fixed;
+    width: 100%;
+    
+}
+.section02 div{
+    border-top:5px solid #e44c65;
+    background: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95));
+    height: 320px;
+    text-align: justify;
+    padding: 50px;
+}
+.section02 ul li{
+    display: inline;
+    list-style: none;
+}
+.section02 #encabezado02, ul li p{
+    float: left;
+    padding: 40px;
+    text-decoration: none;
+    color: white;
+    text-align: justify ;
+    width: 300px;
+}
+ .section02 #encabezado02 h1{
+     text-align: center;
+     margin-bottom: 7px;
+ }
+
+
+ .section03{
+    display: block;
+    padding-top: 0%;
+    background-image: url(../img/pic03.jpg);
+    overflow: hidden;
+    background-attachment: fixed;
+    width: 100%;
+ }
+.section03 #div03{
+    background: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95));
+    
+    text-align: justify;
+    padding: 50px;
+    float: right;
+    width: 50%;
+    height: 600px;
+    width: 25em;
+    border-left:5px solid #e44c65;
+}
+.section03 #div03 header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.section03 #div03 div{
+    margin-bottom: 20px;
+}
+.section03 #div03 ul li{
+    text-align: center;
+    list-style: none;
+    border:  1px solid white;
+    cursor: pointer;
+    padding: 10px;
+    margin: auto 90px auto 90px;
+    border-radius: 10px;
+    
+}
+.section03 #div03 ul li a{
+    text-decoration: none;
+}
+
+
+.section04{
+    display: block;
+    padding-top: 0%;
+    background-image: url(../img/pic04.jpg);
+    overflow: hidden;
+    background-attachment: fixed;
+    width: 100%;
+ }
+#div04{
+    background: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95));
+    text-align: justify;
+    padding: 50px;
+    float: left;
+    width: 50%;
+    height: 600px;
+    width: 25em;
+    border-right:5px solid #e44c65;
+}
+.section04 #div04 header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.section04 #div04 div{
+    margin-bottom: 20px;
+}
+.section04 #div04 ul li{
+    text-align: center;
+    list-style: none;
+    border:  1px solid white;
+    cursor: pointer;
+    padding: 10px;
+    margin: auto 90px auto 90px;
+    border-radius: 10px;
+}
+.section04 #div04 ul li a{
+    text-decoration: none;
+}
+
+
+.section05{
+    background-color: rgb(23, 24, 32); 
+    padding-bottom: 70px;
+}
+.section05 header{
+    text-align: center;
+    padding: 4.5em 0 2.5em 0;
+    
+}
+.section05 hr{
+    width: 40%;
+    margin: 0 auto;
+    height: 5px;
+    align-items: center;
+    margin-bottom: 10px;
+    background: #e44c65;
+    height: 5px;
+    border: 0px;
+}
+#idtablesection05 tbody td{
+    
+    text-align: center;
+    padding: 70px;
+    height: auto;
+}
+#idtablesection05{
+    width: 100%;
+    height: 700px;
+    
+}
+#idtablesection05 h2{
+    margin-bottom: 5px;
+}
+#idtablesection05 img{
+    margin: -30px 0px 50px 0px;
+}
+.section05 #PieDePagina ul li{
+    border: 2px solid whitesmoke;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    width: 200px;
+    margin-top: 60px;
+    margin-left: 42%;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+
+.section06{
+    height: 300px;
+    background: #e44c65;
+    text-align: center;
+}
+.section06 #div06{
+    padding: 4.5em 0 2.5em 0;
+    
+}
+.section06 #textbox{
+    height: 44px;
+    width: 400px;
+    border: 2px solid whitesmoke;
+    border-radius: 4px;
+    background: transparent;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+.section06 #textbox::placeholder{
+    color: white;
+}
+.section06 #button{
+    height: 48px;
+    width: 200px;
+    border: 2px solid whitesmoke;
+    border-radius: 4px;
+    background: white;
+    margin-top: 20px;
+    display: inline-block;
+    cursor: pointer;
+    color: #e44c65; 
+}
+
+
+.section07{
+    background-color: rgb(23, 24, 32); 
+    
+}
+.section07 li{
+    margin: 0px 0px 0px 35%;
+}
+.section07 li a{
+    float: left;
+    padding-top: 80px;
+    margin: 0px 40px 0px -20px;
+    
+}
+#copyright{
+    margin-left: 50px;
+    padding: 200px;
+}
